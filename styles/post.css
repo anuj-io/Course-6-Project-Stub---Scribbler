@@ -1,0 +1,81 @@
+.post-title {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.post-body {
+  padding: 40px;
+}
+
+[contenteditable=true] {
+  border: 2px solid pink;
+}
+
+.post-details {
+  display: flex;
+  align-items: center;
+}
+
+.author {
+  flex-grow: 1;
+}
+
+.post-text {
+  margin: 20px 0;
+}
+
+.btn .fa {
+  margin-left: 8px;
+}
+
+#savePost {
+  display: none;
+}
+
+#editPost {
+  display: inherit;
+}
+
+.edit-mode #savePost {
+  display: inherit;
+}
+
+.edit-mode #editPost {
+  display: none;
+}
+
+.social-action {
+  display: none;
+}
+
+.social-action.show {
+  display: block;
+}
+
+.social-action .btn, .add-comment .btn {
+  margin: 16px 0;
+}
+
+.add-comment textarea{
+  display: block;
+  padding: 20px;
+  width: 600px;
+}
+
+.add-comment, .comment-section, .comment-section h3{
+  margin: 20px 0;
+}
+
+.comment {
+  border: 16px solid #eee;
+  padding: 16px 8px;
+}
+
+.comment:first-of-type {
+  border-top-width: 32px;
+}
+
+.comment:last-of-type {
+  border-bottom-width: 32px;
+}
