@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* HEADER STYLES */
+.header-ctr {
+  display: flex;
+  padding: 20px;
+}
+
+.site-header h1 {
+  font-size: 40px;
+  font-family: 'Montez', cursive;
+}
+
+.site-header h2 {
+  font-size: 32px;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+.site-header {
+  flex-grow: 1;
+}
+
+/* COMMON BUTTON STYLES */
+
+.btn {
+  display: inline-block;
+  padding: 20px;
+  border: 1px solid white;
+  color: black;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btn-blue {
+  color: white;
+  background-color: blue;
+}
