@@ -1,0 +1,84 @@
+.page-ctr {
+  background-color: rgba(243, 241, 239, 1);
+}
+
+.posts-ctr {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post {
+  display: flex;
+  width: 700px;
+  margin: 50px;
+}
+
+.post:hover {
+  box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.33);
+}
+
+.post-author {
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  flex-grow: 1;
+  background-color: white;
+  font-weight: bold;
+}
+
+.post-body {
+  position: relative;
+  flex-grow: 4;
+  padding: 10px 20px;
+  background-color: rgba(232, 232, 232, 1);
+  font-size: 20px;
+}
+
+.post-title {
+  color: rgba(0,0,0, 0.8);
+  font-size: 24px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.post-title p {
+  flex-grow: 1;
+}
+
+.open-post {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+.modal-overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0, 0.4);
+}
+
+.modal-overlay.show {
+  display: block;
+}
+
+#confirmationModal .btn-green {
+  margin: 0;
+  float: left;
+}
+
+#confirmationModal .btn-red {
+  margin: 0;
+  float: right;
+}
+
+.modal.confirmation {
+  padding: 20px;
+}
+
+.modal.confirmation .message{
+  margin-bottom: 20px;
+}

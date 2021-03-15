@@ -42,3 +42,91 @@
   color: white;
   background-color: blue;
 }
+
+.btn-green {
+  color: white;
+  background-color: yellowgreen;
+}
+
+.btn-yellow {
+  background-color: yellow;
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+}
+
+.btn-width {
+  display: block;
+}
+
+.btn-center {
+  text-align: center;
+}
+
+.fa-times {
+  cursor: pointer;
+}
+
+.icon-cross {
+  text-transform: uppercase;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.modal-ctr {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%,-50%);
+  z-index: 100;
+}
+
+.modal {
+  display: none;
+  padding: 40px 20px;
+  background-color: white;
+  color: #2b2a2a;
+  width: 400px;
+}
+
+.modal.show {
+  display: block;
+}
+
+.modal header {
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #2b2a2a;
+}
+
+.modal header h3 {
+  flex-grow: 1;
+}
+
+.modal label {
+  display: block;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.modal input, .modal textarea {
+  display: block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.modal button {
+  margin: 20px 0;
+}
+
+.modal .inline-lnk {
+  color: blue;
+}
+
+.clearfix {
+  overflow: auto;
+}
